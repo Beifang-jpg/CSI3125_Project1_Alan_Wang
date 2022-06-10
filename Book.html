@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEG3125 Project1</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <style>
+    section{
+      padding: 60px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-md navbar-light bg-secondary pt-5 pb-4">
+    <div class="container-xxl">
+      <!-- navbar brand / title -->
+      <a class="navbar-brand" href="#intro">
+        <span class="text-white fw-bold">
+          3125 Project1
+        </span>
+      </a>
+      <!-- Something -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+          <a class="nav-link text-white" href="intro.html">Back to Welcome page</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link text-white" href="About_Us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link text-white" href="Book.html">Book appointment in Store</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link text-white" href="Start_Online.html">Start Online Now</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link text-white" href="Information.html">Information</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- about us page -->
+  <section id="about">
+    <div class="text-center mb-5">
+        <h1>
+            Book an Appointment in One of our Stores
+        </h1>
+    </div>
+    <!-- input -->
+    <div class="container">
+      <!-- personal information -->
+      <div class="mb-3 mt-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Please enter your email" name="email">
+      </div>
+      <div class="mb-3">
+          <label for="name" class="form-label">Name:</label>
+          <input type="text" class="form-control" id="name" placeholder="How do you want to be called" name="name">
+      </div>
+
+      <div class="mb-3">
+        <label for="amount" class="form-label">Amount of people:</label>
+        <input type="text" class="form-control" id="amount" placeholder="Are you visiting alone or with friens" name="name">
+      </div>
+
+      <div class="mb-3">
+        <label for="store" class="form-label">Name:</label>
+        <input type="text" class="form-control" id="store" placeholder="Which Store you'd like to vist. Please enter like : Ottawa1 or Toronto2" name="name">
+      </div>
+
+      <!-- time -->
+      <div class="mb-3">
+          <label for="date" class="form-label">Date:</label>
+          <input type="text" class="form-control" id="date" placeholder="In which day you want vist us. (Please note that work time shift bettwen days)" name="date">
+      </div>
+      <div class="mb-3">
+          <label for="time" class="form-label">Time:</label>
+          <input type="text" class="form-control" id="time" placeholder="In what time you want vist ue" name="time">
+      </div>
+
+      <!-- at end -->
+      <button type="submit" class="btn btn-outline-secondary">Submit</button>
+      <p class="lead text-right mt-5 mb-1 text-muted">We will send you an email to confrim your booking</p>
+    </form>
+  </div>
+  <!-- nothing -->
+
+  </section>
+  
+</body>
+</html>
